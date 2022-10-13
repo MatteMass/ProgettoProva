@@ -23,6 +23,10 @@ namespace Wpf_GIT2
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnStampa_Click(object sender, RoutedEventArgs e)
+        {
             lblStampa.Content = "Hello World";
         }
     }
