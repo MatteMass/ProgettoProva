@@ -23,8 +23,10 @@ namespace Wpf_GIT2
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
+//button per la stampa
         private void btnStampa_Click(object sender, RoutedEventArgs e)
         {
             lblStampa.Content = "Hello World";
